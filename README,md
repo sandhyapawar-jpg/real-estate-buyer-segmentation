@@ -51,3 +51,41 @@ The largest segment contained 315 buyers and represented the Mainstream Indian I
 ## Note
 
 The dataset used for this project was prepared for the project analysis and is used for demonstration and educational purposes.
+## Project Results
+
+The project successfully segmented 500 real estate buyers using the K-Means clustering algorithm.
+
+### Machine Learning Process
+- Data cleaning and preprocessing
+- Missing value handling
+- Duplicate removal
+- Age feature creation
+- Categorical feature encoding
+- Feature standardization
+- K-Means clustering
+- Elbow Method analysis
+- Silhouette Score evaluation
+- PCA-based cluster visualization
+
+### Final Model
+- Algorithm: K-Means Clustering
+- Number of segments: 6
+- Best Silhouette Score: 0.1726
+- Total buyers: 500
+
+### Buyer Segments
+
+| Segment | Buyers | Main Profile |
+|---|---:|---|
+| 0 | 40 | USA Loan-Financed Investors |
+| 1 | 111 | UAE Referred Investors |
+| 2 | 41 | Singapore Investors |
+| 3 | 272 | Indian Online Investment Buyers |
+| 4 | 11 | UK Personal-Use Buyers |
+| 5 | 25 | Canadian Personal-Use Buyers |
+
+### Key Insight
+
+The largest segment contains 272 buyers (54.4%) and is primarily made up of female buyers from India who are interested in real-estate investment, generally do not use loans, and commonly discover properties through online search.
+
+The final segmented dataset is available in `Real Estate Buyer Segmentation Final.csv`.
