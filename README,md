@@ -1,0 +1,53 @@
+# Machine Learning Based Buyer Segmentation and Investment Profiling for Real Estate Market Intelligence
+
+## Project Overview
+
+This project uses machine learning techniques to segment real-estate buyers into meaningful customer groups. The objective is to understand buyer characteristics and provide useful investment and marketing insights.
+
+## Objectives
+
+- Clean and prepare real-estate buyer data
+- Encode categorical features
+- Scale numerical features
+- Segment buyers using K-Means clustering
+- Apply Hierarchical clustering for comparison
+- Determine the optimal number of clusters using the Elbow Method and Silhouette Score
+- Interpret the buyer segments
+- Provide targeted business recommendations
+
+## Methodology
+
+1. Data Cleaning
+2. Feature Encoding
+3. Feature Scaling
+4. K-Means Clustering
+5. Elbow Method
+6. Silhouette Score
+7. Hierarchical Clustering
+8. Cluster Interpretation
+9. Business Recommendations
+
+## Results
+
+Five buyer segments were identified using K-Means clustering. The highest Silhouette Score among the tested values was obtained at K = 5.
+
+The largest segment contained 315 buyers and represented the Mainstream Indian Investors group. The High-Satisfaction Dubai Investors group had the highest average satisfaction score of 3.80.
+
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Google Colab
+- GitHub
+
+## Machine Learning Models
+
+- K-Means Clustering
+- Hierarchical (Agglomerative) Clustering
+
+## Note
+
+The dataset used for this project was prepared for the project analysis and is used for demonstration and educational purposes.
